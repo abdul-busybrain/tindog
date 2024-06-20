@@ -18,12 +18,6 @@ body {
   text-align: center;
 }
 
-/* CONTAINERS */
-
-.container-fluid {
-  padding: 7% 15%;
-}
-
 h1,
 h2,
 h3,
@@ -49,6 +43,19 @@ p {
   line-height: 1.5;
 }
 
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+}
 /* navigation bar */
 .nav-bar {
   padding-bottom: 0 0 4.5rem;
@@ -71,12 +78,7 @@ p {
 /* title section */
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+  padding: 3% 15%;
   text-align: left;
 }
 
@@ -89,12 +91,11 @@ p {
 }
 
 .download-btn {
-  margin: 5% 3% 5%;
+  margin: 5% 3% 5% 0;
   padding: 0rem 0.5rem;
 }
 
 /* features section */
-
 #features {
   background-color: #fff;
   z-index: 1;
@@ -122,7 +123,6 @@ p {
 /* testimonial section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -159,12 +159,6 @@ p {
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-/* CTA SECTION */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
 }
 
 .cta-header {
